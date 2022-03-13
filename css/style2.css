@@ -1,0 +1,58 @@
+@media (max-width:819px) {
+    article {
+        width: 90%;
+    }
+    #tarjeta {
+        display: flex;
+        flex-direction: column;
+        font-size: max(3.2vw,21px);
+        width: 80%;
+        padding: 2vh 1vh;
+    }
+    #tarjeta ul {
+        padding-inline-start: 0vw;
+    }
+    #title {
+        width: 30%;
+    }
+    label#contacto {
+        font-size: max(1.6vw,13px);
+        text-align: center;
+    }
+
+
+    header div p, header div h1 {
+    font-size: max(2vw,19px);
+    }
+
+    nav {
+        width: max-content;
+        
+    }
+    #tarjeta img {
+        width: 36%;
+        border-radius: 41%;
+        margin: 20px 0 20px 0;
+
+    }
+    #tarjeta ul li {
+        text-align: center;
+    }
+    .label-contacto {
+        font-size: max(1.6vw,10px);
+    }
+    #link-form {
+        flex-direction: column;
+    }
+    form input {
+        width: 68vw;
+        height: 1.8em;
+    }
+    form#contacto {
+        row-gap: 3vh;
+    }
+    #button {
+        width: 50%;
+        padding: 10px 20px;
+    }
+}
