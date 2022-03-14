@@ -1,5 +1,4 @@
-# my-first-profile - Ejercicio de HTML - Diseño Web
-<h2>My profile - First proyect to familiarize with Github</h2>
-<p>Here I put the html pages created to train some html and css learnings.</p>
-<p>I used html 5 and CSS3. All the multimedia files are in assets' folder and the css file is in the css' folder.</p>
-<p>The content of this page is a single profile of me and the idea is adding more information by the time.</p>
+<h1>Diseño Web - Landing Page Nav Bar</h1>
+<p>Se creó un logo light-mode en el sitio https://pt.freelogodesign.org/;
+<p>Se creó un palette-color en el sitio: https://coolors.co/user/palettes con base en el logo creado. Y se aplicaron los colores del palette-color por medio de variables CSS. </p>
+<p>Se usó hover para el navbar, y los conteinedores en display:flex.</p>
