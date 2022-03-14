@@ -83,6 +83,7 @@ header nav {
 ul.submenu {
     display: flex;
     flex-direction: column;
+    visibility: hidden;
     opacity: 0;
     position: absolute;
     left: -4vw;
@@ -100,6 +101,7 @@ ul.submenu {
 }
 #portfolio:hover> ul.submenu {
     opacity: 1;
+    visibility: visible;
     transition-property: all;
     transition-duration: 0.7s;
 }
@@ -119,4 +121,54 @@ li.submenu:hover {
 li.submenu:hover>a {
     color: var(--baby-powder);
 }
-
+main {
+    width: 100vw !important;
+    height: 70vh;
+}
+section.login {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.if-login {
+    width: fit-content;
+    height: 506px;
+}
+ul.login {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: calc(2vw + 19px);
+    left: -2vw;
+    width: max-content;
+    
+    background: var(--whitegreen);
+}
+#contacto {
+    position: relative;
+}
+li#contacto:hover>ul.login {
+    visibility: visible;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.7s;
+    
+}
+li.login-li {
+    padding: 2vw 2vw;
+    color: var(--russian-green);
+}
+li.login-li a {
+    padding: 1.5vw 3vw 1.5vw 1vw;
+    color: var(--russian-green);
+}
+li.login-li:hover {
+    background: var(--green-pigment);
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+li.login-li:hover>a {
+    color: var(--baby-powder);
+}
