@@ -6,96 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:wght@700;800;900&family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css" media="(max-width:819px)">
     <script src="https://kit.fontawesome.com/86e6e4cfba.js" crossorigin="anonymous"></script>
-    <title>My Profile</title>
+    <title>Madeira Development</title>
     
 </head>
 <body>
     <header id="header">
-        <div id="logo">
-           <a href="#"><img src="./assets/logo-madeira-dark-mode-removebg-preview.png" alt="Logo-madeira"></a>
-        </div>
-        <div id="title">
-            <h1>¿Quien Soy?</h1>
-        </div>
-        <nav>
-            <a href="#pie" id="link-form">
-                <label for="link-form"  id="label-contacto">Dejá tu Contacto!</label>
-                <img src="./assets/address-card-solid.svg" alt="imagen de un formulario"
-                id="img-form" style="width: max(6vw,40px); background: #d2691e00; border-radius: 10px;">
-            </a>
-        </nav>        
+        <nav class="header-navbar">
+            <div class="logo">
+                <a href="https://my-first-proyect.vercel.app/" target="_blank"><img src="./assets/logo-madeira-light-mode-removebg-preview.png" alt="logotipo-madeira-developments" title="logotipo-madeira-developments"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="./index.html">INICIO</a>
+                    </li>
+                    <li id="portfolio">
+                        PORTFOLIO
+                        <ul class="submenu">
+                            <li class="submenu"><a href="https://my-first-proyect.vercel.app/" target="_blank">My Profile</a></li>
+                            <li class="submenu"><a href="http://sunnyside-agency-desafio.vercel.app/" target="_blank">Sunnyside Agency</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">CLIENTES</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <main>
-        <div id="contenido">
-            <div class="blur">    
-            <article>
-                <section id="tarjeta">
-                    <img src="assets/miperfil.jpg" alt="foto proncipal de mi perfil" ;
-                    border-radius: 36%;">
-                    <UL style="list-style: none;">
-                        <li>
-                            Nombre: RODRIGO   
-                        </li>
-                        <li>
-                            Apellidos: <span>Madeira Calazans Nascimento</span>
-                        </li>
-                        <li>
-                            Edad: 40 años
-                        </li>
-                        <li>
-                            <address inputmode="email" >Email: <span>rdmadeira2@gmail.com</span></address> 
-                        </li>
-                    </UL>
-                </section>
-                <hr size="3px" color="black">
-                <section id="descripcion">
-                    <p>
-                        Nacido en 1981, tengo 1,80mt, 68 kgs de muchas ganas de 
-                        aprender y desarollar servicios y productos 
-                        por Internet como Web Developer.
-                    </p>
-                    <p>
-                        Originario de Salvador, Bahia, 
-                        Brasil, vivo en Buenos Aires desde hace 
-                        6 años y medio. Formado en ing. Eléctrica,
-                        laburé muchos años como ingeniero de 
-                        áudio, en espetáculos de música, foruns, 
-                        convenciones, grabaciones, etc. Hoy en día laburo 
-                        con soluciones y suporte técnico de post-ventas en 
-                        equipos de áudio, iluminación, y video para una importadora y fábrica.
-                    </p>
-                </section>
-                
-            </article>
-        </div>
-        </div>
-        <footer id="pie">
-                           
-                <div id="div-contacto" >
-                    <label for="checked" class="label-contacto"><img src="./assets/address-card-solid-2.svg" alt=""> Contacto:</label>
-                </div>
-                <input type="checkbox" name="checked" id="checked" >
-                <form id="contacto"> 
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombres">
-                    <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
-                    <input type="text" name="tel" id="tel" placeholder="Telefono" >
-                    <input type="text" name="correo" id="correo" placeholder="Correo Electronico">
-                    <button type="submit" id="button">Enviar</button>
-                </form>
-            <div style="align-self: flex-end;">
-                <p>
-                © All rights reserved
-                </p>
-            </div>    
-
-            
-        </footer>
-        
-    </main>
-    
 </body>
 </html>
